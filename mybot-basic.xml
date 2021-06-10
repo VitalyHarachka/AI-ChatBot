@@ -1,0 +1,114 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+<!-- Greetings and Politeness -->
+<category> <pattern> HELLO </pattern>
+  <template>Hello! How are you?</template> </category>
+
+<category> <pattern> HELLO * </pattern>
+  <template><srai>HELLO</srai></template> </category>
+
+<category> <pattern> HI </pattern>
+  <template><srai>HELLO</srai></template> </category>
+
+<category> <pattern> HI * </pattern>
+  <template><srai>HELLO</srai></template> </category>
+
+<category> <pattern> HOW ARE YOU </pattern>
+  <template>I'm functioning within normal parameters, thanks for asking.</template></category>
+
+<category><pattern> I AM FINE </pattern>
+  <template>That's good to know. What would you like to discuss Marvel characters?</template></category>
+
+<category><pattern> BYE </pattern>
+  <template>#0$Bye! Nice talking to you. You take care now.</template></category>
+
+<category><pattern> GOODBYE </pattern>
+  <template><srai>BYE</srai></template></category>
+
+<category><pattern> EXIT </pattern>
+  <template><srai>BYE</srai></template></category>
+
+<category> <pattern> THANKS </pattern>
+  <template>You are welcome.</template></category>
+
+<category> <pattern> THANK YOU </pattern>
+  <template><srai>THANKS</srai></template></category>
+
+<category> <pattern> CHEERS </pattern>
+  <template>Sure mate.</template></category>
+
+<category> <pattern> CHEERS * </pattern>
+  <template>Sure mate.</template></category>
+
+<!-- Powers -->
+<category> <pattern> WHAT ARE WOLVERINES * </pattern>
+  <template>He is a mutant who possesses animal-keen senses,
+ enhanced physical capabilities, powerful regenerative ability known as a healing factor,
+ and three retractable claws in each hand</template></category>
+
+<category> <pattern> WHAT ARE MAGNITOS * </pattern>
+  <template> Magneto is a mutant with the power to manipulate magnetic fields to achieve a wide range of effects. 
+He can also generate electromagnetic pulses of great strength and generate and manipulate electromagnetic energy down to photons. 
+He can turn invisible by warping visible light around his body.</template></category>
+
+<category> <pattern> WHAT ARE DEADPOOLS * </pattern>
+  <template> Deadpool's primary power is an accelerated healing factor, depicted by various writers at differing levels of efficiency. 
+The speed of his healing factor depends on the severity of the wound and Deadpool's mental state. 
+It works most efficiently when he is awake, alert, and in good spirits.</template></category>
+
+<category> <pattern> WHAT ARE CYCLOPSS * </pattern>
+  <template> Cyclops possesses the mutant ability to project a beam of heatless ruby-colored concussive force 
+from his eyes, which act as inter-dimensional apertures between this universe and another.</template></category>
+
+<category> <pattern> WHAT ARE QUICKSILVERS * </pattern>
+  <template> Quicksilver (Pietro Maximoff) is a mutant with the ability to think and move at superhuman speeds, and has enhanced agility and reflexes. 
+He is able to run beyond speed of light, accomplishes feats such as creating cyclones out of pure speed, 
+running up walls and above bodies of water.</template></category>
+
+
+
+
+
+<!--- Wikipedia API -->
+<category><pattern> WHO IS * </pattern>
+  <template>#1$<star index="1"/></template></category>
+
+<category><pattern> WHAT WAS * </pattern>
+  <template><srai>WHO IS <star/></srai></template></category>
+
+<category><pattern> WHAT WERE * </pattern>
+  <template><srai>WHO IS <star/></srai></template></category>
+
+<category><pattern> DEFINE * </pattern>
+  <template><srai>WHO IS <star/></srai></template></category>
+
+<category><pattern> WHAT IS A * </pattern>
+  <template><srai>WHO IS <star/></srai></template></category>
+
+
+<!-- FOL model interface -->
+<category> <pattern> I WILL PUT * IN * </pattern>
+ <template>#4$<star index="1"/>$<star index="2"/></template></category>
+
+<category> <pattern> IS * IN * </pattern>
+ <template>#5$<star index="1"/>$<star index="2"/></template></category>
+
+<category> <pattern> IS * ONLY IN * </pattern>
+ <template>#6$<star index="1"/>$<star index="2"/></template></category>
+
+<category> <pattern> WHICH HEROES ARE IN * </pattern>
+ <template>#7$<star index="1"/></template></category>
+
+<category> <pattern> SAVE A CIVILIAN </pattern>
+ <template>#8$<star index="1"/></template></category>
+
+<category> <pattern> ENGLISH TO GERMAN</pattern>
+ <template>#9$</template></category>
+
+
+
+<!-- Default reaction -->
+<category><pattern> * </pattern>
+  <template>#99$<star index="1"/></template></category>
+
+</aiml>

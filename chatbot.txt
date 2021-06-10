@@ -1,0 +1,28 @@
+in what movies does iron man play in or featured in or star in. Iron Man stars in "Iron Man", "Iron Man 2", "Iron Man 3",
+"Avengers Assemble", "Avengers: Age of Ultron", "Captain America: Civil War", "Spider-Man: Homecoming", "Avengers: Infinity War", "Avengers: Endgame".
+ 
+in what movies does thor play in or featured in or star in. thor is featurd in "Thor", "Avengers Assemble",
+ "Avengers: Age of Ultron", "Thor: Ragnarok", "Avengers: Infinity War", "Avengers: Endgame".
+
+in what movies does hulk play in or featured in or star in. hulk is featured in "hulk (2003)", "the incredible hulk (2008)",
+ "Avengers Assemble", "Avengers: Age of Ultron", "Thor: Ragnarok", "Avengers: Infinity War", "Avengers: Endgame".
+
+in what movies does captain america play in or featured in or star in. captain america is featured in 
+"Captain America: The First Avenger (2011)", "The Avengers (2012)", "Captain America: The Winter Soldier (2014)", "Avengers: Age of Ultron (2015)",
+ "Captain America: Civil War (2016)", "Avengers: Infinity War (2018)" and "Avengers: Endgame (2019)".
+
+in what movies does black widow play in or featured in or star in. black widow is featured in "Iron Man 2", "Avengers Assemble",
+ "Captain America: The Winter Soldier (2014)", "Avengers: Age of Ultron", "Captain America: Civil War", "Avengers: Infinity War", "Avengers: Endgame".
+
+in what movies does spider-man play in or featured in or star in. spider-man is featured in "spider-man (2002)",
+ "spider-man 2 (2004)", "spider-man 3 (2007)", "the amaizing spider-man (2012)", "the amaizing spider-man 2 (2014)", "Captain America: Civil War (2016)",
+ "spider-man: homecoming (2017)", "Avengers: Infinity War (2018)" and "Avengers: Endgame (2019)", "Spider-Man: Far From Home (2019)".
+
+in what movies does doctor strange play in or featured in or star in. doctor strange is featured in "Doctor Strange (2016)",
+ "Thor: Ragnarok (2017)", "Avengers: Infinity War", "Avengers: Endgame".
+
+in what movies does black panther play in or featured in or star in. black anther is featured in  "Captain America: Civil War (2016)",
+ "Black Panther (2018)",  "Avengers: Infinity War", "Avengers: Endgame".
+
+in what movies does ant-man play in or featured in or star in. ant-man is featured in "Ant-Man", "Captain America: Civil War (2016)",
+ "Ant-Man and the Wasp", "Avengers: Endgame".
